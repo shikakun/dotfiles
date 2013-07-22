@@ -1,0 +1,22 @@
+[user]
+  name = shikakun
+  email = k@u-n.jp
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  a = add
+  c = commit -m
+  ci = commit -m
+  co = checkout
+  p = push origin
+  pl = pull origin
+  s = status -sb
+  st = status -sb
+  br = branch
+  brd = fetch --prune
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
