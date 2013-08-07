@@ -1,6 +1,8 @@
 [user]
   name = shikakun
   email = k@u-n.jp
+[push]
+  default = simple
 [color]
   ui = auto
   diff = auto
