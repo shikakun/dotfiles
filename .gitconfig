@@ -18,7 +18,8 @@
   s = status -sb
   st = status -sb
   br = branch
-  brd = fetch --prune
+  brd = branch -d
+  brdd = fetch --prune
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
