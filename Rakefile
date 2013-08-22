@@ -1,6 +1,13 @@
 require 'rake'
 
-@ignore_files = ['.', '..', '.git', 'Rakefile', 'README.md']
+@ignore_files = [
+  '.',
+  '..',
+  '.DS_Store',
+  '.git',
+  'Rakefile',
+  'README.md'
+]
 
 class Puts
   class << self
