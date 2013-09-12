@@ -45,4 +45,4 @@ plugins=(git ruby osx bundler brew rails emoji-clock)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/usr0600243/.rbenv/shims:/Users/usr0600243/.nvm/v0.10.13/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH=$PATH:$HOME/.rbenv/shims:$HOME/.nvm/v0.10.13/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
