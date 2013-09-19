@@ -6,7 +6,8 @@ require 'rake'
   '.DS_Store',
   '.git',
   'Rakefile',
-  'README.md'
+  'README.md',
+  'bin'
 ]
 
 class Puts
