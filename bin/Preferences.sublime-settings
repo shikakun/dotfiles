@@ -3,6 +3,8 @@
 	"close_windows_when_empty": true,
 	"theme": "Flatland Dark.sublime-theme",
 	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"flatland_square_tabs": true,
+	"flatland_sidebar_tree_xsmall" : true,
 	"disable_formatted_linebreak": true,
 	"disable_tab_abbreviations": true,
 	"disabled_single_snippet_for_scopes": "",
