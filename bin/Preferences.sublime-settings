@@ -1,7 +1,8 @@
 {
 	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"theme": "Flatland Dark.sublime-theme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 	"disable_formatted_linebreak": true,
 	"disable_tab_abbreviations": true,
 	"disabled_single_snippet_for_scopes": "",
