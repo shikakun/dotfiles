@@ -10,7 +10,7 @@ alias g='git'
 alias gs='g s'
 alias ga='g a'
 alias gc='g c'
-alias gt='tig'
+alias gt='git'
 
 # node.js
 source ~/.nvm/nvm.sh
