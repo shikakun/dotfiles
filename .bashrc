@@ -12,6 +12,9 @@ alias ga='g a'
 alias gc='g c'
 alias gt='git'
 alias od='open dev'
+alias v='vim'
+alias vi='vim'
+alias vv='vi'
 
 # node.js
 source ~/.nvm/nvm.sh
