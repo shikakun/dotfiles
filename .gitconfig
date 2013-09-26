@@ -12,6 +12,7 @@
   a = add
   c = commit -m
   ci = commit -m
+  ca = commit --amend
   co = checkout
   d = diff
   dd = diff --cached
