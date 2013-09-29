@@ -28,6 +28,6 @@ alias vi='vim'
 alias vv='vi'
 
 # node.js
-source ~/.nvm/nvm.sh
-nvm use 0.10.13
+# source ~/.nvm/nvm.sh
+# nvm use 0.10.13
 
