@@ -26,3 +26,5 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore
+[ghn]
+  token = df5550cae8de95fca2bccfd851abcd950ec0aa40
