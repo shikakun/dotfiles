@@ -8,6 +8,8 @@ export PS1='\[\033[34m\]\w\[\033[32m\]$(__git_ps1)\[\033[00m\]
 # alias
 alias bashrc='vim ~/.bashrc'
 alias bashrcc='source ~/.bashrc && cd ~/dotfiles/ && git st'
+alias d='git checkout develop'
+alias dd='git checkout develop && git pull && git pull origin develop'
 alias dayone='dayone new'
 alias ff='open -a firefox'
 alias firefox='open -a firefox'
