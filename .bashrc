@@ -30,6 +30,8 @@ alias od='open dev'
 alias v='vim'
 alias vi='vim'
 alias vv='vi'
+alias vu='vagrant up'
+alias vh='vagrant halt'
 
 # node.js
 # source ~/.nvm/nvm.sh
