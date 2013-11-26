@@ -27,7 +27,6 @@ alias m='git checkout master'
 alias mm='git checkout master && git pull && git pull origin master'
 alias mkdirr='mkdir -p'
 alias o='open'
-alias od='open dev'
 alias v='vim'
 alias vi='vim'
 alias vv='vi'
@@ -35,6 +34,6 @@ alias vu='vagrant up'
 alias vh='vagrant halt'
 
 # node.js
-# source ~/.nvm/nvm.sh
-# nvm use 0.10.13
+source ~/.nvm/nvm.sh
+nvm use 0.10.13
 
