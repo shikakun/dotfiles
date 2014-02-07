@@ -6,7 +6,7 @@
 	"disable_tab_abbreviations": true,
 	"disabled_single_snippet_for_scopes": "",
 	"draw_minimap_border": true,
-	"draw_white_space": "all",
+	"draw_white_space": "selection",
 	"enable_emmet_keymap": true,
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_sidebar_tree_xsmall": true,
