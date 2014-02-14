@@ -41,7 +41,3 @@ alias vv='vi'
 alias vu='vagrant up'
 alias vh='vagrant halt'
 
-# node.js
-source ~/.nvm/nvm.sh
-nvm use 0.10.13
-
