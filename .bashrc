@@ -43,3 +43,5 @@ alias vv='vi'
 alias vu='vagrant up'
 alias vh='vagrant halt'
 
+# Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
