@@ -8,6 +8,7 @@ export PS1='\[\033[34m\]\w\[\033[32m\]$(__git_ps1)\[\033[00m\]
 # alias
 alias bashrc='open ~/.bashrc'
 alias bashrcc='source ~/.bashrc && cd ~/dotfiles/ && git st'
+alias bi='bundle install --path vendor/bundle'
 alias cc='compass compile'
 alias cw='compass watch'
 alias chmodd='stat -f %A'
