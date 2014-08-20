@@ -6,6 +6,8 @@ export PS1='\[\033[34m\]\w\[\033[32m\]$(__git_ps1)\[\033[00m\]
 \$ '
 
 # alias
+alias b='bundle'
+alias e='exec'
 alias bashrc='open ~/.bashrc'
 alias bashrcc='source ~/.bashrc && cd ~/dotfiles/ && git st'
 alias be='bundle exec'
