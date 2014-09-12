@@ -10,6 +10,7 @@
   branch = auto
 [alias]
   a = add
+  branch-empty-commit = "!sh -c 'git checkout -b $1 && git commit --allow-empty -m \"ブランチを作った: $1\"' -"
   c = commit -m
   ci = commit -m
   ca = commit --amend
