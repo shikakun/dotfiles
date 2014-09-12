@@ -51,5 +51,10 @@ alias vv='vi'
 alias vu='vagrant up'
 alias vh='vagrant halt'
 
+function branch() {
+  git checkout -b $1;
+  git commit --allow-empty -m "ブランチを作った: $1";
+}
+
 # Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
