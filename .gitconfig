@@ -17,6 +17,7 @@
   co = checkout
   d = diff
   dd = diff --cached
+  push-origin = "!sh -c 'git push origin $1' -"
   p = push origin
   pl = pull origin
   s = status -sb
@@ -27,4 +28,4 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore
-	precomposeunicode = true
+  precomposeunicode = true
