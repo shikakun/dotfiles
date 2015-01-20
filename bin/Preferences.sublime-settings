@@ -16,7 +16,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"SCSS"
 	],
 	"line_padding_top": 4,
 	"open_files_in_new_window": false,
