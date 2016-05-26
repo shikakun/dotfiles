@@ -56,6 +56,7 @@ alias vi='vim'
 alias vv='vi'
 alias vu='vagrant up'
 alias vh='vagrant halt'
+alias youtube='mpsyt'
 
 # Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
