@@ -56,6 +56,7 @@ alias vi='vim'
 alias vv='vi'
 alias vu='vagrant up'
 alias vh='vagrant halt'
+alias wip='git commit --allow-empty -m ":construction: WIP"'
 alias youtube='mpsyt'
 
 # Heroku Toolbelt
