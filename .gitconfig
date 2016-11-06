@@ -1,0 +1,25 @@
+[user]
+  name = shikakun
+  email = k@u-n.jp
+[push]
+  default = simple
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  a = add
+  br = branch
+  brd = branch -d
+  brdd = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+  c = commit -m
+  ca = commit --amend
+  ci = commit -m
+  co = checkout
+  d = diff
+  s = status -sb
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+  precomposeunicode = true
