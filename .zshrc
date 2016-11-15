@@ -4,10 +4,12 @@ export EDITOR=vim
 HISTFILE=~/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 # autoload
 #### 自動補完を有効にする
 autoload -Uz compinit
+compinit
 
 #### 色をつける
 autoload -Uz colors
