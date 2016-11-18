@@ -6,6 +6,14 @@ HISTSIZE=100000
 SAVEHIST=100000
 fpath=(/usr/local/share/zsh-completions $fpath)
 
+# path
+#### anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+#### rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # autoload
 #### 自動補完を有効にする
 autoload -Uz compinit
