@@ -13,6 +13,9 @@ eval "$(anyenv init -)"
 #### rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+#### golang
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
 
 # autoload
 #### 自動補完を有効にする
