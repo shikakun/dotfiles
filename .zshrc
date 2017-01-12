@@ -71,6 +71,7 @@ RPROMPT='%F{green}${vcs_info_msg_0_}%f'
 
 # エイリアス
 alias a='atom'
+alias be='bundle exec'
 alias f='find . -name'
 alias g='git'
 alias ga='git add'
