@@ -24,6 +24,7 @@
   excludesfile = ~/.gitignore
   precomposeunicode = true
   quotepath = false
+  autocrlf = false
 [filter "lfs"]
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
