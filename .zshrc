@@ -16,6 +16,8 @@ eval "$(rbenv init -)"
 #### golang
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
+#### yarn
+export PATH="$HOME/.yarn/bin:$PATH"
 
 # autoload
 #### 自動補完を有効にする
