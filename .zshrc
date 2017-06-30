@@ -16,6 +16,8 @@ eval "$(rbenv init -)"
 #### golang
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
+#### yarn
+export PATH="$HOME/.yarn/bin:$PATH"
 
 # autoload
 #### 自動補完を有効にする
@@ -68,6 +70,16 @@ PROMPT='%F{cyan}%~%f %# '
 _vcs_precmd () { vcs_info }
 add-zsh-hook precmd _vcs_precmd
 RPROMPT='%F{green}${vcs_info_msg_0_}%f'
+
+# peco
+#### ctrl + r キーで過去に実行したコマンドを検索する
+function peco-history-selection() {
+  BUFFER=`history -n 1 | tail -r  | awk '!a[$0]++' | peco`
+  CURSOR=$#BUFFER
+  zle reset-prompt
+}
+zle -N peco-history-selection
+bindkey '^R' peco-history-selection
 
 # エイリアス
 alias a='atom'
