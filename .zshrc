@@ -18,6 +18,8 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 #### yarn
 export PATH="$HOME/.yarn/bin:$PATH"
+#### ImageMagick
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
 # autoload
 #### 自動補完を有効にする
