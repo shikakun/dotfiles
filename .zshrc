@@ -20,6 +20,8 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$HOME/.yarn/bin:$PATH"
 #### ImageMagick
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+#### python
+export PATH=/usr/local/bin:$PATH
 
 # autoload
 #### 自動補完を有効にする
