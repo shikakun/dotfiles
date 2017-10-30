@@ -22,8 +22,6 @@ export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 #### python
 export PATH=/usr/local/bin:$PATH
-#### npm
-export PATH=$PATH:`npm bin -g`
 
 # autoload
 #### 自動補完を有効にする
