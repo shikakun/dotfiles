@@ -18,6 +18,7 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 #### yarn
 export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
 #### ImageMagick
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 #### python
