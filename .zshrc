@@ -14,7 +14,7 @@ eval "$(anyenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 #### golang
-export GOPATH="$HOME/go"
+export GOPATH="$HOME/.go"
 export PATH="$PATH:$GOPATH/bin"
 #### yarn
 export PATH="$HOME/.yarn/bin:$PATH"
